@@ -44,16 +44,30 @@ span {
   outline: none;
 }
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .download_btn {
   font-weight: 600;
   color: #fff;
-  padding: 0.5rem;
+  padding: 1rem;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 10px;
   background-color: #04befe;
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  animation: blink 1.5s infinite;
 }
+
 .bn632-hover.bn26 {
   background-image: linear-gradient(
     to right,

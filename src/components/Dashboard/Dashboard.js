@@ -75,7 +75,7 @@ const Dashboard = () => {
             className="download_btn"
             onClick={handleDownload}
           >
-            Download
+            Click to Download
           </a>
         ) : (
           ""

@@ -19,6 +19,11 @@ const Code = () => {
       <Row className="code-content">
         <Col className="title">
           <h1>YT-MP3 SOURCE CODE</h1>
+          <h4>
+            <a href="https://www.facebook.com/arielyap.fb">
+              DEVELOPED BY: JOHN ARIEL YAP
+            </a>
+          </h4>
           <Button className="bn632-hover bn26" onClick={handleButtonClick}>
             DOWNLOAD
           </Button>

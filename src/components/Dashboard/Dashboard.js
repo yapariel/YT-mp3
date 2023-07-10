@@ -101,7 +101,11 @@ const Dashboard = () => {
           </Col>
         </Row>
         <Row>
-          <h4>JOHN ARIEL YAP | 2023</h4>
+          <h4>
+            <a href="https://www.facebook.com/arielyap.fb">
+              DEVELOPED BY: JOHN ARIEL YAP
+            </a>
+          </h4>
         </Row>
       </Container>
     </>
